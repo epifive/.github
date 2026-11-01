@@ -71,7 +71,7 @@ async function gh(path) {
 function hero(t, totals) {
   const W = 1200;
   const H = 400;
-  const words = PROJECTS.map((p) => (/^[A-Z]{2,}/.test(p.tag) ? p.tag : p.tag[0].toLowerCase() + p.tag.slice(1)));
+  const words = PROJECTS.map((p) => (/^[A-Z]{2,} /.test(p.tag) ? p.tag : p.tag[0].toLowerCase() + p.tag.slice(1)));
   const step = 2.4;
   const cycle = step * words.length;
   const kf = words
