@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="86" viewBox="0 0 1200 86" role="img" aria-label="Open-source SaaS products">
+<defs><linearGradient id="h" x1="0" x2="1"><stop offset="0" stop-color="#4cc9a6"/><stop offset=".6" stop-color="#7c8cff"/><stop offset="1" stop-color="#7c8cff" stop-opacity="0"/></linearGradient></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}.u{animation:g 1.4s ease-out both;transform-origin:left}@keyframes g{from{transform:scaleX(0)}to{transform:scaleX(1)}}</style>
+<text x="0" y="38" font-size="28" font-weight="900" fill="#eef3f5">Open-source SaaS products</text>
+<text x="0" y="66" font-size="15" fill="#93a1ab">Complete products with installer, admin, payments, docs and a live demo — MIT licensed.</text>
+<rect class="u" x="0" y="80" width="1200" height="3" rx="1.5" fill="url(#h)"/>
+</svg>

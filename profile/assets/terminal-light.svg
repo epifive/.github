@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-label="Install in three commands">
+<title>Install any EpiFive product in three commands</title>
+<rect x=".5" y=".5" width="1199" height="229" rx="16" fill="#ffffff" stroke="#d6e0dc"/>
+<path d="M.5 16.5a16 16 0 0 1 16-16h1167a16 16 0 0 1 16 16V44.5H.5Z" fill="#dff0e9"/>
+<circle cx="28" cy="22" r="7" fill="#ff5f57"/><circle cx="50" cy="22" r="7" fill="#febc2e"/><circle cx="72" cy="22" r="7" fill="#28c840"/>
+<text x="600" y="27" font-size="13" font-weight="600" fill="#5f6c75" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">install in 3 commands — the same for every product</text>
+<clipPath id="c0"><rect x="36" y="72" height="32" width="0"><animate attributeName="width" from="0" to="718" begin="0.50s" dur="2.4s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#c0)"><text x="40" y="94" font-size="16" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"><tspan fill="#b5791b" font-weight="700">$</tspan><tspan fill="#10171c"> git clone https://github.com/epifive/statuszen.git &amp;&amp; cd statuszen/app</tspan></text></g>
+<clipPath id="c1"><rect x="36" y="110" height="32" width="0"><animate attributeName="width" from="0" to="292" begin="3.60s" dur="1.4s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#c1)"><text x="40" y="132" font-size="16" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"><tspan fill="#b5791b" font-weight="700">$</tspan><tspan fill="#10171c"> npm install &amp;&amp; npm run dev</tspan></text></g>
+<clipPath id="c2"><rect x="36" y="148" height="32" width="0"><animate attributeName="width" from="0" to="748" begin="5.70s" dur="0.01s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#c2)"><text x="40" y="170" font-size="16" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"><tspan fill="#0a7560" font-weight="700">✔</tspan><tspan fill="#0a7560"> Ready on http://localhost:3000  →  open /install and pick SQLite or MySQL</tspan></text></g>
+<rect x="40" y="188" width="10" height="18" fill="#0a7560"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+</svg>
