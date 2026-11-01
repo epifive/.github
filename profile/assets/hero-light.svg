@@ -65,7 +65,7 @@
   <text class="in3" x="0" y="282" font-size="17" fill="#5f6c75">Web installer · admin panel · plans &amp; payments · docs · a live demo for every product</text>
   <g transform="translate(0 310)"><g class="in4" font-size="15" font-weight="800">
     <rect width="180" height="42" rx="21" fill="#0a7560"/><text x="90" y="27" fill="#f7faf8" text-anchor="middle">9 SaaS products</text>
-    <rect x="194" width="166" height="42" rx="21" fill="none" stroke="#0a7560" stroke-width="1.5"/><text x="277" y="27" fill="#0a7560" text-anchor="middle">12 public repos</text>
+    <rect x="194" width="166" height="42" rx="21" fill="none" stroke="#0a7560" stroke-width="1.5"/><text x="277" y="27" fill="#0a7560" text-anchor="middle">14 public repos</text>
     <rect x="374" width="176" height="42" rx="21" fill="none" stroke="#b5791b" stroke-width="1.5"/><text x="462" y="27" fill="#b5791b" text-anchor="middle">Next.js 16 + TS</text>
   </g></g>
 </g>

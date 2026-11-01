@@ -69,6 +69,10 @@
 </tr>
 </table>
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/h-mini-dark.svg"><img src="./assets/h-mini-light.svg" alt="Mini tools — free &amp; Pro" width="1200"></picture>
+
+<table><tr><td width="33%" valign="top"><a href="https://github.com/epifive/gstzen"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-gstzen-dark.svg"><img src="./assets/card-gstzen-light.svg" alt="Gstzen — GST invoice, quote &amp; receipt maker" width="380"></picture></a><br><sub><a href="https://gstzen-demo.pages.dev">Live demo</a> · <a href="https://github.com/epifive/gstzen">Free (MIT)</a> · <a href="https://www.epifive.com/products/gstzen-pro"><b>Get Pro</b></a></sub></td><td width="33%" valign="top"><a href="https://github.com/epifive/qrzen"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-qrzen-dark.svg"><img src="./assets/card-qrzen-light.svg" alt="Qrzen — QR codes: UPI, WiFi, vCard &amp; more" width="380"></picture></a><br><sub><a href="https://qrzen-demo.pages.dev">Live demo</a> · <a href="https://github.com/epifive/qrzen">Free (MIT)</a> · <a href="https://www.epifive.com/products/qrzen-pro"><b>Get Pro</b></a></sub></td></tr></table>
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/h-install-dark.svg"><img src="./assets/h-install-light.svg" alt="Up and running in minutes" width="1200"></picture>
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/terminal-dark.svg"><img src="./assets/terminal-light.svg" alt="Install in three commands" width="1200"></picture></p>
