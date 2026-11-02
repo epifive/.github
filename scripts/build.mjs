@@ -28,8 +28,8 @@ const PROJECTS = [
 ];
 /** Mini tools (Free on GitHub + Pro on epifive.com/products/<repo>-pro). Add new releases here. */
 const MINI = [
-  { repo: "gstzen", title: "Gstzen", tag: "GST invoice, quote & receipt maker", demo: "https://gstzen-demo.pages.dev" },
-  { repo: "qrzen", title: "Qrzen", tag: "QR codes: UPI, WiFi, vCard & more", demo: "https://qrzen-demo.pages.dev" },
+  { repo: "gst-invoice", title: "EpiFive GST Invoice", tag: "GST invoice, quote & receipt maker", demo: "https://gst-invoice-demo.pages.dev" },
+  { repo: "qr-code-generator", title: "EpiFive QR Code Generator", tag: "QR codes: UPI, WiFi, vCard & more", demo: "https://qr-code-generator-demo.pages.dev" },
 ];
 const RESOURCES = [
   { repo: "it-cheatsheets", title: "IT Cheat Sheets", tag: "662 verified command sheets" },
