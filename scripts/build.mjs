@@ -30,6 +30,7 @@ const PROJECTS = [
 const MINI = [
   { repo: "gst-invoice", title: "EpiFive GST Invoice", tag: "GST invoice, quote & receipt maker", demo: "https://gst-invoice-demo.pages.dev" },
   { repo: "qr-code-generator", title: "EpiFive QR Code Generator", tag: "QR codes: UPI, WiFi, vCard & more", demo: "https://qr-code-generator-demo.pages.dev" },
+  { repo: "website-privacy-kit", title: "EpiFive Website Privacy Kit", tag: "DPDP consent banner, notices & rights inbox", demo: "https://www.epifive.com/products/website-privacy-kit-pro" },
 ];
 const RESOURCES = [
   { repo: "it-cheatsheets", title: "IT Cheat Sheets", tag: "662 verified command sheets" },
