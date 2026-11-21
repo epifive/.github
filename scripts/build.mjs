@@ -268,6 +268,20 @@ function resourceGrid(items) {
   return `<table>\n<tr>\n${cells.join("\n")}\n</tr>\n</table>`;
 }
 
+/** Plain table of every public repo (new repos appear automatically): name, one-line description, links. */
+function allProjects(list) {
+  const order = [...PROJECTS, ...MINI, ...RESOURCES].map((p) => p.repo);
+  const rank = (r) => (order.includes(r.name) ? order.indexOf(r.name) : order.length);
+  const rows = list
+    .filter((r) => !r.fork && !r.private && r.name !== ".github")
+    .sort((a, b) => rank(a) - rank(b) || a.name.localeCompare(b.name))
+    .map((r) => {
+      const site = r.homepage ? ` · <a href="${esc(r.homepage)}">Website</a>` : "";
+      return `<tr><td><a href="https://github.com/${ORG}/${r.name}"><b>${esc(r.name)}</b></a></td><td>${esc(r.description ?? "")}</td><td><a href="https://github.com/${ORG}/${r.name}/releases/latest">Download</a>${site}</td></tr>`;
+    });
+  return `<table>\n<tr><th>Project</th><th>What it is</th><th>Links</th></tr>\n${rows.join("\n")}\n</table>`;
+}
+
 const repos = await gh(`/orgs/${ORG}/repos?per_page=100&type=public`);
 const byName = new Map(repos.map((r) => [r.name, r]));
 const totals = {
@@ -312,6 +326,10 @@ ${picture("h-install", "Up and running in minutes", 1200)}
 ${picture("h-resources", "IT engineering resources", 1200)}
 
 ${resourceGrid(RESOURCES.filter((p) => byName.has(p.repo)))}
+
+### All public projects
+
+${allProjects(repos)}
 <!-- end generated -->`;
 
 const readmePath = join(ROOT, "profile", "README.md");
